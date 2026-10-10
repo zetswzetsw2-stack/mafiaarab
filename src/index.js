@@ -1,5 +1,4 @@
-تعذرrt { DurableObject } from "cloudflare:workers";
-
+import { DurableObject } from "cloudflare:workers";
 const HTML = `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
