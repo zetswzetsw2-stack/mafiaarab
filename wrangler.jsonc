@@ -1,1 +1,22 @@
 
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mafia-arab",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-10",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "GAME_HUB",
+        "class_name": "GameHub"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["GameHub"]
+    }
+  ]
+}
