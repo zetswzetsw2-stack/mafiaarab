@@ -2,7 +2,8 @@
 
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "mafia-arab",
+  
+"name": "mafiaarab",
   "main": "src/index.js",
   "compatibility_date": "2026-10-10",
   "durable_objects": {
